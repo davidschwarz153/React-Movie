@@ -32,19 +32,18 @@ export default function SearchFilters() {
     }, [searchTerm, sortOption, allMovies]);
 
     return (
-        <div className="flex flex-col md:flex-row gap-4 p-4 bg-gray-200 rounded-lg shadow">
+        <div className="flex flex-col md:flex-row gap-4 p-4 bg-gray-200 rounded-lg shadow text-white">
             <input
                 type="text"
                 placeholder="Film suchen..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="p-2 border rounded w-full md:w-3/4"
-            />
+                />
 
             <select 
                 onChange={(e) => setSortOption(e.target.value)}
-                className="p-2 border rounded w-full md:w-2/4"
-            >
+                className="p-2 border rounded w-full md:w-2/4">
                 <option value="">Sortieren nach...</option>
                 <option value="date-desc">Neueste zuerst</option>
                 <option value="date-asc">Älteste zuerst</option>
