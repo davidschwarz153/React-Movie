@@ -8,7 +8,7 @@ Eine einfache und moderne Movie-Datenbank-App, die mit **React** und der **TMDb-
 
 ## 🔍 Vorschau
 
-
+![](https://github.com/davidschwarz153/React-Movie/blob/main/public/preview/preview.gif)
 
 ---
 
